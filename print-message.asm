@@ -1,4 +1,4 @@
-[org 0x7c00]    ; Set standard variable offset
+[org 0x7c00]    ; Set standard variable offset; Great explanation: https://www.youtube.com/watch?v=hseFqtRpK0M&lc=Ugy3IHBUgbrh8oEVJa54AaABAg
 mov ah, 0x0e    ; Switch to teletype mode
 mov bx, message ; Place "pointer" to message in `bx` register
 
